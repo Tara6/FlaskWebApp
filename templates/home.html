@@ -5,8 +5,14 @@
     <title>Flask</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <h2>Text</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1200px-The_Earth_seen_from_Apollo_17.jpg">
+    <h1>PS4 Consoles</h1>
+    <table>
+    {%for i in range(0, len)%} 
+    <tr>
+      <td><h2 class="console-heading">{{consoles[i]['Title']}}</h2> </td>
+      <td>{{consoles[i]['Price']}}</td>
+    </tr>
+    {%endfor%} 
+    </table>
   </body>
 </html>
