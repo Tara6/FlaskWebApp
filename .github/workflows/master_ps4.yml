@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'ps4'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_690c507b34794ae08df40b15e7ea4c01 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f47bfb9fa2b540388cce8c59f9574c8a }}
